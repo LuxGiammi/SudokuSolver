@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define ELEMENTARY_MATRIX_SIZE 3
+#define ELEMENTARY_MATRIX_SIZE 3		//Elementary matrix is the size of one small "subsquare" of the game (usually 3x3)
 #define SUDOKU_SIZE ELEMENTARY_MATRIX_SIZE * ELEMENTARY_MATRIX_SIZE
 
 typedef unsigned char uchar;
